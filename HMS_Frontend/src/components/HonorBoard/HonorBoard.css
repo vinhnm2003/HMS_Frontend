@@ -1,0 +1,85 @@
+.honor-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.honor-card {
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.honor-card:hover {
+  transform: translateY(-5px);
+}
+
+.honor-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.honor-title {
+  color: #333;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.honor-date {
+  color: #666;
+  font-size: 0.875rem;
+}
+
+.honor-content {
+  margin-bottom: 15px;
+}
+
+.honor-employee,
+.honor-position,
+.honor-awarded-by {
+  margin-bottom: 8px;
+  color: #444;
+}
+
+.honor-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.btn-info:hover {
+  background-color: #138496;
+  border-color: #117a8b;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.form-control:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+textarea.form-control {
+  resize: vertical;
+} 

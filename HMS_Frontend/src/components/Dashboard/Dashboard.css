@@ -1,0 +1,50 @@
+.dashboard-card {
+  height: 100%;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.dashboard-card .card-title {
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.task-item, .survey-item, .inventory-item, .document-item, .honor-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.task-item:last-child, .survey-item:last-child, .inventory-item:last-child, 
+.document-item:last-child, .honor-item:last-child {
+  border-bottom: none;
+}
+
+.task-status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.task-status.completed {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.task-status.pending {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.survey-deadline, .document-date, .item-quantity, .honor-reason {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.employee-name {
+  font-weight: 500;
+} 

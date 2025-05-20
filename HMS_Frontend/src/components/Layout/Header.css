@@ -1,0 +1,66 @@
+/* Header.css */
+
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0.5rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+}
+
+.logo {
+  height: 40px;
+  object-fit: contain;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff; /* Bootstrap primary */
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+  margin-left: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.active {
+  color: #007bff;
+  text-decoration: none;
+}
+
+@media (max-width: 991px) {
+  .nav-link {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+  }
+}
+/* Căn giữa menu điều hướng */
+.nav-center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+  margin: 0 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.active {
+  color: #007bff;
+  text-decoration: none;
+}

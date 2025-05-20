@@ -1,0 +1,47 @@
+.survey-form {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.survey-table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.survey-table td {
+  vertical-align: middle;
+}
+
+.status-badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.status-open {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status-closed {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.btn-outline-primary {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.form-control:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+} 
